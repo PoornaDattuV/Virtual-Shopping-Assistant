@@ -9,21 +9,25 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express": "^5.1.0"
+  },
   "devDependencies": {
     "tap": "^2.3.1"
   },
   "scripts": {
-    "test": "tap --coverage test/*.js"
+    "test": "tap --coverage test/*.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/wrappy"
+    "url": "git+https://github.com/npm/wrappy.git"
   },
   "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/npm/wrappy/issues"
   },
-  "homepage": "https://github.com/npm/wrappy"
+  "homepage": "https://github.com/npm/wrappy",
+  "keywords": []
 }
